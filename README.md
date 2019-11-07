@@ -22,3 +22,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Using Trello.ts
+To access the data in our bogus organization DreamTeam, copy the `config.template.ts` file and rename it to `config.ts`. Edit the file to add the supplied credentials.
