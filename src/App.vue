@@ -1,9 +1,12 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <b-navbar type="is-dark">
+      <template slot="brand">
+        <b-navbar-item tag="router-link" :to="{ path: '/' }">
+          <p>Trello Burndown</p>
+        </b-navbar-item>
+      </template>
+    </b-navbar>
     <router-view/>
   </div>
 </template>
