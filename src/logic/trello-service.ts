@@ -13,7 +13,7 @@ export class TrelloService {
 
   public async getBoards() {
     return this.trelloClient.organizations.getBoards({
-      id: 'dreamteam593'
+      id: 'uptrends'
     })
   }
 

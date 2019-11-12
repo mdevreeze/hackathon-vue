@@ -11,7 +11,7 @@ import { Watch, Prop } from 'vue-property-decorator'
 
 @Component
 export default class Status extends Vue {
-  @Prop() public board?: string;
+  @Prop() public board!: string;
   public status: any = []
   private trelloService: TrelloService = new TrelloService()
 

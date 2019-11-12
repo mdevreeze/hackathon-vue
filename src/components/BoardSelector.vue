@@ -11,8 +11,7 @@
       >{{ b.name }}</option>
     </b-select>
   </b-field>
-  <!-- <Status board="selectedBoard" /> -->
-  <Status board="5dc2e6499ff4206fcdc60beb" />
+  <Status :board="selectedBoard" />
   </section>
   </div>
 </template>
